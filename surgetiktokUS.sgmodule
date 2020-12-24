@@ -1,7 +1,6 @@
-#油管搜索：
-#titok 18.0
-[URL Rewrite]
-#tiktok解锁直播区域限制
+#!name=Unlock TikTok US
+#!system=ios
+
 (?<=_region=)CN(?=&) US 307
 (?<=&mcc_mnc=)4 2 307
 
