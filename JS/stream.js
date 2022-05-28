@@ -35,7 +35,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
   ;(async () => {
     let panel_result = {
-      title: '📺 流媒体解锁检测 🔍',
+      title: '🥬 流媒体解锁检测 🥬',
       content: '',
       icon: '4k.tv.fill',
       'icon-color': '#FF2D55',
@@ -55,7 +55,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
-        disney_result="Disney+: 未支持 🚫 "
+        disney_result="Disney+: 未支持 📍 "
       } else if (status==STATUS_TIMEOUT) {
         disney_result="Disney+: 检测超时 🚦"
       }
