@@ -1,5 +1,5 @@
 #!name=stream_unlock
-#!desc=检测流媒体解锁情况，脚本来自TG@B638535126
+#!desc=检测流媒体解锁情况
 #!system=ios
 
 [Panel]
