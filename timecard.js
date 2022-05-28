@@ -74,6 +74,7 @@ function datenotice() {
 function icon_now(num){
   if(num<=7 && num>3 ){
     return "hare"
+    'icon-color': '#8EECFF'
   }else if(num<=3 && num>0){
     return "timer"
   }else if(num==0){
