@@ -110,7 +110,8 @@ panel_result['content'] = content
         if (code === 'Not Available') {
           youtube_check_result += '不支持解锁⚓️'
         } else {
-          youtube_check_result += '已  解锁，区域: ' +`${getFlagEmoji(code)} ` 
+          youtube_check_result += 
+          '已解锁，   区域: ' +`${getFlagEmoji(code)} ` 
         }
       })
       .catch((error) => {
