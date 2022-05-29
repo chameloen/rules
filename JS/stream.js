@@ -55,7 +55,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
-        disney_result="Disney+: 未支持 📍 "
+        disney_result="Disney+: 未支持 ⚓️ "
       } else if (status==STATUS_TIMEOUT) {
         disney_result="Disney+: 检测超时 🚦"
       }
@@ -108,7 +108,7 @@ panel_result['content'] = content
     await inner_check()
       .then((code) => {
         if (code === 'Not Available') {
-          youtube_check_result += '不支持解锁🚫'
+          youtube_check_result += '不支持解锁⚓️'
         } else {
           youtube_check_result += '已解锁，区域: ' +`${getFlagEmoji(code)} ` 
         }
@@ -159,7 +159,7 @@ panel_result['content'] = content
       })
     }
   
-    let netflix_check_result = 'Netflix    : '
+    let netflix_check_result = 'Netflix   : '
   
     await inner_check(81215567)
       .then((code) => {
@@ -182,7 +182,7 @@ panel_result['content'] = content
           return
         }
         if (error === 'Not Available') {
-          netflix_check_result += '该节点不支持解锁🚫'
+          netflix_check_result += '该节点不支持解锁⚓️'
           return
         }
         netflix_check_result += '检测失败，请刷新面板🔄'
