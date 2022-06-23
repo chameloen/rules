@@ -166,7 +166,7 @@ panel_result['content'] = content
         if (code === 'Not Found') {
           return inner_check(80018499)
         }
-        netflix_check_result += ' 已完整解锁，区域: '  +`${getFlagEmoji(code)} ` 
+        netflix_check_result += '已完整解锁， 区域: '  +`${getFlagEmoji(code)} ` 
         return Promise.reject('BreakSignal')
       })
       .then((code) => {
